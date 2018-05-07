@@ -62,6 +62,18 @@ a.tab-label:hover,a.tab-label.active-btn {
     margin: 0.5px 0;
     width: 100%;
   }
+	.shLogo {
+	height: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	width: auto;
+}
+	#logoSection {
+	min-height: 300px;
+	padding-top: 20px;
+	width: 100%;
+	background-color: white;
+}
 }
 /* Custom forms */
 form.customform input, form.customform select, form.customform textarea, form.customform button {

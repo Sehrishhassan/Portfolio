@@ -247,16 +247,16 @@ form.customform input, form.customform select, form.customform textarea {
   	position: relative;
   }
   .top-nav {
-  	text-align: left;
+	margin-top: 20px;
+  	text-align: center;
   }
   .top-nav li {
   	line-height: 3rem;
   }
   .top-nav .logo {
-	margin-top:20px;
-	padding-top: 50px;
-  	padding: 1.25rem;
-	line-height: 3.5rem;
+	 padding-top:20px;
+	 padding-bottom: 13px;
+	line-height: 3rem;
 	text-align: center;
 	}
   .carousel-text h2 {
