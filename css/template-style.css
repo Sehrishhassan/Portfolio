@@ -8,6 +8,19 @@ nav {
 	top: 0;
 	z-index: 500;
 }
+.profilePic
+{
+	width: 20%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	/*
+		Taken from w3Schools
+		https://www.w3schools.com/howto/howto_css_rounded_images.asp
+	*/
+	border-radius: 50%;
+	height: auto;
+}
 .top-nav {
 	background: none repeat scroll 0 0 rgba(0, 30, 34, 0.85);
 }
@@ -215,6 +228,19 @@ form.customform input, form.customform select, form.customform textarea {
   body {
   	background: none repeat scroll 0 0 rgb(0, 30, 34);
   }
+	.profilePic
+	{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 80px;
+	/*
+		Taken from w3Schools
+		https://www.w3schools.com/howto/howto_css_rounded_images.asp
+	*/
+	border-radius: 50%;
+	height: auto;
+}
   nav {
   	background: none repeat scroll 0 0 rgb(0, 30, 34);
   	line-height: 1rem;
@@ -227,8 +253,12 @@ form.customform input, form.customform select, form.customform textarea {
   	line-height: 3rem;
   }
   .top-nav .logo {
+	margin-top:20px;
+	padding-top: 50px;
   	padding: 1.25rem;
-  }
+	line-height: 3.5rem;
+	text-align: center;
+	}
   .carousel-text h2 {
   	font-size: 1.3rem;
   }
