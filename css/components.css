@@ -19,6 +19,11 @@
 .tab-nav > .tab-label {
   float:left;
 }
+
+.textColumn
+{
+	padding-left: 50px;
+}
 a.tab-label, a.tab-label:link, a.tab-label:visited, a.tab-label:hover {
   background: none repeat scroll 0 0 #262626;
   color: #fff;
@@ -73,7 +78,13 @@ a.tab-label:hover,a.tab-label.active-btn {
 	padding-top: 20px;
 	width: 100%;
 	background-color: white;
-}
+	}
+	.textColumn
+	{
+		padding-top: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 /* Custom forms */
 form.customform input, form.customform select, form.customform textarea, form.customform button {
