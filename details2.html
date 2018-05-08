@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="css/template-style.css"> 
       <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext" rel="stylesheet" type="text/css">
       <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>      
    </head>
    <body class="size-1140">
       <!-- TOP NAV WITH LOGO -->  
@@ -51,55 +51,39 @@
          </nav>
       </header>
       <section>
-         <!-- FIRST BLOCK --> 	
-		 <div id="logoSection">
-		 	<img src="img/LogoSlim.png" class="shLogo"> 
-		 </div>
-         <!-- SECOND BLOCK --> 	
-         <div id="second-block">
+         <div id="head">
             <div class="line">
-               <div class="margin-bottom">
-                  <div class="margin">
-                     <article class="s-12 l-8 center">
-                        <h1>About Me</h1>
-                        <p class="margin-bottom">I am a graphic designer and an aspiring makeup artist. I love to doodle and make digital illustrations.
-                        </p>
-                        <a class="button rounded-btn submit-btn s-12 l-4 center" href="about.html">Read more</a>  			
-                     </article>
-                  </div>
-               </div>
+               <h1>Bycatching Prevention Association Website</h1>
             </div>
          </div>
-         <!-- GALLERY --> 	
-         <div id="third-block">
+         <div id="content" class="left-align contact-page">
             <div class="line">
-               <h2>Featured Projects</h2>
-               <p class="subtitile">These are some of my favorite projects
-               </p>
                <div class="margin">
-                  <div class="s-12 m-6 l-4">
-					<!--W3schools code https://www.w3schools.com/html/html_links.asp-->
-					<a href="details1.html">
-						<img src="img/thumbnails/paneerish.png" alt="alternative text">
-					</a>
-					<!--w3Schools code end-->
-                           
-                     <p class="subtitile">Paneerish
-                     </p>
+                  <div class="s-12 l-6">
+                     <img src="img/Bycatching/Home.PNG">
+					  <br/>
+                     <img src="img/Bycatching/bycatchnet.png">
+					 <br/>
+					  <img src="img/Bycatching/whale.png">
+					  <br/>
+					  <img src="img/Bycatching/footer.PNG">
+
                   </div>
-                  <div class="s-12 m-6 l-4">
-					<a href="details2.html">
-                     	<img src="img/thumbnails/web thumbnail.png" alt="alternative text">
-					  </a>
-                     <p class="subtitile">Bycatching Prevention Association Website
-                     </p>
-                  </div>
-                  <div class="s-12 m-6 l-4">
-					 <a href="details3.html">
-                     	<img src="img/thumbnails/popup.png" alt="alternative text">      
-					  </a>
-                     <p class="subtitile">Popup Card
-                     </p>
+                  <div class="s-12 l-6">
+					  <div class="textColumn">
+						 <p>This project required us to create a website.
+							 <br/><br/>
+							 I chose to make the site a single page website about bycatching. Bycatching is the act of accidentally catching unintended fish and animals when trying to fish. This results in hundreds of thousands of animals such as dolphins and sea turtles dying each year due to fishing. This is a big issue that is not very well known to the public, so I wanted to raise awareness.
+						  <br/><br/>
+							 To present all the information, a single page website seemed like the best format for this website. As a user scrolls through the page, fish swim by from one side of the screen to another.
+							<br/><br/>
+							 Although I used Adobe Dreamweaver for this project, getting the fish to move was the difficult part. After searching w3Schools and other websites online, I found a simple script that would do this for me when I scrolled.
+							 <br/><br/>
+							 This was the first large project I did that involved digital painting. Although I had done it before, I did not create as much detail in the past on previous projects. By using Photoshop and my Surface Book, I was able to sketch lots of details on all of the animals.
+							<br/><br/>
+							 Overall, this project was difficult because of all the web designing involved. But this project is what got me really interested in digital illustration.						  	
+						  </p>
+					</div>
                   </div>
                </div>
             </div>
@@ -115,5 +99,21 @@
          </div>
       </footer>
       <script type="text/javascript" src="js/responsee.js"></script> 
+      <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>   
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {  
+           var owl = $('#news-carousel');
+           owl.owlCarousel({
+              nav: true,
+              dots: false,
+              items: 1,
+              loop: true,
+              navText: ["&#xf007","&#xf006"],
+              autoplay: true,
+              autoplayTimeout: 4000
+           });
+         });	
+          
+      </script>  
    </body>
 </html>

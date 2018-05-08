@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="css/template-style.css"> 
       <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext" rel="stylesheet" type="text/css">
       <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>      
    </head>
    <body class="size-1140">
       <!-- TOP NAV WITH LOGO -->  
@@ -51,55 +51,28 @@
          </nav>
       </header>
       <section>
-         <!-- FIRST BLOCK --> 	
-		 <div id="logoSection">
-		 	<img src="img/LogoSlim.png" class="shLogo"> 
-		 </div>
-         <!-- SECOND BLOCK --> 	
-         <div id="second-block">
+         <div id="head">
             <div class="line">
-               <div class="margin-bottom">
-                  <div class="margin">
-                     <article class="s-12 l-8 center">
-                        <h1>About Me</h1>
-                        <p class="margin-bottom">I am a graphic designer and an aspiring makeup artist. I love to doodle and make digital illustrations.
-                        </p>
-                        <a class="button rounded-btn submit-btn s-12 l-4 center" href="about.html">Read more</a>  			
-                     </article>
-                  </div>
-               </div>
+               <h1>Popup Card</h1>
             </div>
          </div>
-         <!-- GALLERY --> 	
-         <div id="third-block">
+         <div id="content" class="left-align contact-page">
             <div class="line">
-               <h2>Featured Projects</h2>
-               <p class="subtitile">These are some of my favorite projects
-               </p>
                <div class="margin">
-                  <div class="s-12 m-6 l-4">
-					<!--W3schools code https://www.w3schools.com/html/html_links.asp-->
-					<a href="details1.html">
-						<img src="img/thumbnails/paneerish.png" alt="alternative text">
-					</a>
-					<!--w3Schools code end-->
-                           
-                     <p class="subtitile">Paneerish
-                     </p>
+                  <div class="s-12 l-6">
+                     <img src="img/PopUpCard.jpg">
+					  <br/>
+                     <img src="img/background.png">
+					 
+
                   </div>
-                  <div class="s-12 m-6 l-4">
-					<a href="details2.html">
-                     	<img src="img/thumbnails/web thumbnail.png" alt="alternative text">
-					  </a>
-                     <p class="subtitile">Bycatching Prevention Association Website
-                     </p>
-                  </div>
-                  <div class="s-12 m-6 l-4">
-					 <a href="details3.html">
-                     	<img src="img/thumbnails/popup.png" alt="alternative text">      
-					  </a>
-                     <p class="subtitile">Popup Card
-                     </p>
+                  <div class="s-12 l-6">
+					  <div class="textColumn">
+						 <p>This project was for my Three Dimensional Design class. 
+							<br/><br/>
+							 The project was to create a pop up card. I decided to use my love for henna tattoos and combine it with graphic designing. I sketched henna patterns on a cardstock using Micron pens, and then I created a card from that. And behind the henna pattern I used an orange card stock and then cutout some edges of the pattern. For the golden and silver flowers I spray painted them using spray cans. 					  	
+						  </p>
+					</div>
                   </div>
                </div>
             </div>
@@ -115,5 +88,21 @@
          </div>
       </footer>
       <script type="text/javascript" src="js/responsee.js"></script> 
+      <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>   
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {  
+           var owl = $('#news-carousel');
+           owl.owlCarousel({
+              nav: true,
+              dots: false,
+              items: 1,
+              loop: true,
+              navText: ["&#xf007","&#xf006"],
+              autoplay: true,
+              autoplayTimeout: 4000
+           });
+         });	
+          
+      </script>  
    </body>
 </html>
