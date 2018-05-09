@@ -246,18 +246,35 @@ form.customform input, form.customform select, form.customform textarea {
   	line-height: 1rem;
   	position: relative;
   }
-  .top-nav {
-	margin-top: 20px;
-  	text-align: center;
-  }
-  .top-nav li {
-  	line-height: 3rem;
-  }
+	header {
+		padding-top: 20px;
+	}
+	
+	div#head {
+		
+		background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 30, 34, 0.7), 
+      rgba(0, 30, 34, 0.7)
+
+    ),
+    /* bottom, image */
+    url("../img/background.png") fixed;
+		background-size: contain;
+	}
+	
+
   .top-nav .logo {
-	 padding-top:20px;
-	 padding-bottom: 13px;
-	line-height: 3rem;
-	text-align: center;
+	  background: none;
+	}
+	
+	.top-nav .logo a, .top-nav .logo.active-item a {
+		line-height: 2rem;
+	}
+	
+	.nav-text {
+		padding-top: 20px;
 	}
   .carousel-text h2 {
   	font-size: 1.3rem;
